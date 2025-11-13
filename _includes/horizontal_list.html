@@ -1,3 +1,4 @@
+{% unless include.hide %}
 <ul class="horizontal-list">
   {% for item in include.collection %}
     <li>
@@ -8,3 +9,4 @@
     </li>
   {% endfor %}
 </ul>
+{% endunless %}
